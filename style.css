@@ -17,25 +17,46 @@ nav{
     /* background-color: #5d4945; */
     font-family: 'Poppins', sans-serif;
 }
-section{
+.section-top{
     display: flex;
     flex-direction: column;
     justify-content: space-around;
     align-items: flex-end;
-    /* background-color: #5d4945; */
+    background-color: #f6b02d;
     font-family: 'Poppins', sans-serif;
     min-height: 8vh;
     /* margin: 1px; */
     padding: 5px;
 }
+.section-middle{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: flex-end;
+    background-color: #f0dab3;
+    font-family: 'Poppins', sans-serif;
+    min-height: 75vh;
+    /* margin: 1px; */
+    padding: 5px;
+}
+.section-footer{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: flex-end;
+    background-color: #bef790;
+    font-family: 'Poppins', sans-serif;
+    min-height: 10vh;
+    /* margin: 1px; */
+    padding: 5px;
+}
+
 
 
 .search-area button {
     float: left;
     padding: 3px 5px;
     margin-top: 3px;
-    /* height: 5vh; */
-    /* margin-right: 0.15px; */
     background: rgb(226, 226,226);
     font-size: 12px;
     border-radius: 5px 0px 0px 5px;
