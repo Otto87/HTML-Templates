@@ -17,6 +17,44 @@ nav{
     /* background-color: #5d4945; */
     font-family: 'Poppins', sans-serif;
 }
+section{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: flex-end;
+    /* background-color: #5d4945; */
+    font-family: 'Poppins', sans-serif;
+    min-height: 8vh;
+    /* margin: 1px; */
+    padding: 5px;
+}
+
+
+.search-area button {
+    float: left;
+    padding: 3px 5px;
+    margin-top: 3px;
+    /* height: 5vh; */
+    /* margin-right: 0.15px; */
+    background: rgb(226, 226,226);
+    font-size: 12px;
+    border-radius: 5px 0px 0px 5px;
+    border: none;
+    cursor: pointer;
+  }
+.search-text{
+    border-style: solid;
+    border-width: 1px;  
+    border-left-style: none;
+    width: 30vh;
+    border-radius: 0px 5px 5px 0px;
+    font-size: 10px;
+    padding: 3px;
+    margin-top: 3px;
+}
+.search-area button:hover {
+    background: #ccc;
+  }
 .logo{
     color: rgb(226, 226,226);
     text-transform: uppercase;
