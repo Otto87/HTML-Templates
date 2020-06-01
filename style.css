@@ -17,6 +17,10 @@ nav{
     background-color: #5d4d94;
     /* background-color: #5d4945; */
     font-family: 'Poppins', sans-serif;
+    position: fixed;
+    left: 0;
+    top: 0;
+    width: 100%;
 }
 .section-top{
     display: flex;
@@ -27,6 +31,10 @@ nav{
     font-family: 'Poppins', sans-serif;
     min-height: 8vh;
     padding: 5px;
+    position: fixed;
+    left: 0;
+    top:8vh;
+    width: 100%;
 }
 .section-middle{
     display: flex;
@@ -36,7 +44,7 @@ nav{
     background-color: #f0dab3;
     font-family: 'Poppins', sans-serif;
     min-height: 75vh;
-    
+    margin-top: 16vh;
     padding: 5px;
 }
 .footer{
@@ -46,6 +54,7 @@ nav{
     align-items: center;
     background-color: #5d4d94;
     font-family: 'Poppins', sans-serif;
+    font-weight: lighter;
     min-height: 10vh;
     padding: 5px;
     color: rgb(226, 226,226);
