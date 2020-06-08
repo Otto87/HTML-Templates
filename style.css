@@ -36,6 +36,36 @@ nav{
     top:8vh;
     width: 100%;
 }
+.section-chat{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: flex-end;
+    background-color: #f6b02d;
+    font-family: 'Poppins', sans-serif;
+    min-height: 10vh;
+    padding: 5px;
+    position: fixed;
+    right: 1vh;
+    top:90vh;
+    width: 25%;
+}
+
+.section-chat-content{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: flex-end;
+    background-color: #fffdf0;
+    font-family: 'Poppins', sans-serif;
+    min-height: 50vh;
+    padding: 5px;
+    position: fixed;
+    right: 1vh;
+    top:40vh;
+    width: 25%;
+    border-radius: 20px 20px 0 0;
+}
 .section-middle{
     display: flex;
     flex-direction: column;
@@ -58,7 +88,22 @@ nav{
     min-height: 10vh;
     padding: 5px;
     color: rgb(226, 226,226);
+    width: 75%;
 }
+
+.footer-leftover{
+    background-color: #f0dab3;
+    width: 1%;
+    min-height: 10vh;
+    top:90vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: flex-end;
+    position: fixed;
+    right: 0vh;
+}
+
 
 .search-area{
     float: left;
